@@ -1,0 +1,36 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Playfair Display', serif;
+}
+
+#home {
+    background-color: #839eb7;
+    color: white;
+    display: flex;
+    
+}
+
+.tag {
+    margin: 0 auto;
+    height: 100vh;
+    width: 460px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    
+}
+
+.tag h1 {
+    font-size: 40px;
+    margin-bottom: 100px;
+
+
+}
+
+#home img {
+    width: 500px;
+    height: 100vh;
+    border-right: 10px double white;
+}
