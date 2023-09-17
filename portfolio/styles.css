@@ -1,14 +1,28 @@
 * {
     margin:0;
     padding:0;
+   
+}
+
+body {
     font-family: 'Playfair Display', serif;
+    color: white;
+    background-color:#839eb7;
+}
+
+h2 {
+    font-size: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+section:not(#about):not(#home){
+    padding: 50px 0;
+    margin-top: 20px;
 }
 
 #home {
-    background-color: #839eb7;
-    color: white;
     display: flex;
-    
 }
 
 .tag {
@@ -18,19 +32,17 @@
     display:flex;
     flex-direction: column;
     justify-content: center;
-   
-    
+       
 }
 
 .tag h1 {
     font-size: 40px;
     margin-bottom: 70px;
 
-
 }
 
 #home img {
-    width: 500px;
+    width: 600px;
     height: 100vh;
     border-right: 10px double white;
 }
@@ -43,12 +55,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    position: sticky
-
-
+    position: sticky;
+    top: 0;
 }
 
-nav a {
+nav a { 
     color: white;
     font-size: 25px;
     text-decoration:none;
@@ -62,3 +73,38 @@ nav a:hover {
     box-shadow: inset 300px 0 0 0 white;
     color: #023e8a;
   }
+
+#about h2 {
+    margin-top: 40px;
+    
+    
+}
+
+#abt-txt img{
+    width: 500px;
+}
+
+#abt-txt{
+    width: 80%;
+    margin: 0 auto;
+    padding: 35px;
+    background-color: rgb(78, 95, 105);
+    color:#b3d3f0;
+    border-radius: 20px;
+}
+
+.wrap img{
+    margin: 5px;
+    float:right;
+}
+    
+
+
+#abt-txt p {
+    text-align: justify;
+    
+}
+
+#abt-txt span {
+    background-color:grey;
+}
