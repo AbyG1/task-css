@@ -16,13 +16,15 @@ h2 {
     text-align: center;
 }
 
-section:not(#about):not(#home){
+section {
     padding: 50px 0;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 #home {
     display: flex;
+    padding: 0;
+    margin-top: 0;
 }
 
 .tag {
@@ -47,7 +49,13 @@ section:not(#about):not(#home){
     border-right: 10px double white;
 }
 
+#about {
+  margin-top: 0;
+}
+
 nav {
+    position: sticky;
+    top: 0px;
     border-top: 5px double white;
     border-bottom: 5px double white;
     background-color:#023e8a;
@@ -55,8 +63,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    position: sticky;
-    top: 0;
 }
 
 nav a { 
@@ -107,4 +113,46 @@ nav a:hover {
 
 #abt-txt span {
     background-color:grey;
+}
+
+
+#contributions {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+
+
+.wcard {
+    height: 100px;
+    border-radius:10px;
+    padding: 5px;
+    display:flex;
+    margin: 10px 0;
+    color:black;
+    background-color:wheat;
+}
+
+.wcard img {
+    width: 100px;
+    align-self:flex-start;
+    margin: 5px;
+}
+
+
+#container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color:black;
+
+    
+}
+
+#container2 .card {
+   width: 300px;
+   height: 500px;
+   background-color: wheat;
+   margin-bottom: 20px;
 }
